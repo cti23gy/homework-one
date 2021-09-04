@@ -1,0 +1,48 @@
+.images {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &--imageBackground1 {
+    background-image: $overlay, url(../images/IMG_3053.JPG);
+  }
+  &--imageBackground2 {
+    background-image: $overlay, url(../images/Kirby_Robobot.png);
+  }
+  &--imageBackground3 {
+    background-image: $overlay, url(../images/Valak_night.png);
+  }
+  &--imageBackground4 {
+    background-image: $overlay, url(../images/World_of_Light.jpg);
+  }
+
+  &--image1 {
+    background-image: url(../images/map.jpg);
+    height: 500px;
+    min-width: 400px;
+
+    margin-top: 40px;
+  }
+  &--image2 {
+    background-image: url(../images/Hound_of_the_Baskervilles.png);
+    height: 500px;
+    min-width: 400px;
+
+    margin-top: 40px;
+    margin-left: 200px;
+  }
+  &--image3 {
+    background-image: url(../images/2.jpeg);
+    height: 500px;
+    min-width: 400px;
+
+    margin-top: 40px;
+  }
+  &--image4 {
+    background-image: url(../images/4.jpg);
+    height: 500px;
+    min-width: 400px;
+
+    margin-top: 40px;
+  }
+}

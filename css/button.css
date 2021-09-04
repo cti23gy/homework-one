@@ -1,0 +1,16 @@
+/* Block component */
+.button {
+  height: 50px;
+  width: 50px;
+}
+
+/* Element that depends upon the block */
+.button__price {
+  font-size: 30;
+}
+
+.button__text {
+  font-size: 20;
+}
+
+/* Modifier that changes the style of the block */
